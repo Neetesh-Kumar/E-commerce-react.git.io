@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Muli", sans-serif;
+}
+
+.act .Navlinkactives{
+    border-bottom: 3px solid #e66d0a;
+}
+
+.Navlinkactive:hover{
+    border-bottom: 3px solid #e66d0a;
+    transition: 2s;
+}
+.logoColor{
+    color: #e66d0a;
+}
+
+
+.ms-auto{
+    font-weight: bold;
+}
+
+.main:hover{
+    color: black;
+}
+
+.img-fluid1{
+    width: 100%;
+    justify-content: space-around;
+    height: 375px;
+    
+}
+
+.contact-section {
+    justify-content: center;
+
+}
+
+/* card Section in HomePage */
+s{
+    color: red;
+}
+.overLayText{
+    font-size: 35px;
+}
+
+
+/* Slider Css */
+
+.carousel-inner{
+    max-height: 500px;
+}
+.img{
+    max-height: 500px;
+}
+
+.caption{
+    width: 20%;
+}
+
+.carouselTitle{
+    font-weight: 700;
+    letter-spacing: .05rem;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: Poppins,Arial,Helvetica,sans-serif;
+    color: black;
+    bottom: 150px;
+    right: 20px;
+    
+}
+.carouselParagraph{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    left: -70px;
+    bottom: 60px;
+}
+
+.sliderMargin{
+    position: relative;
+    top: -45px;
+}
+.iconhover:hover{
+    color: red;
+}
+
+
+.liClass{
+    text-decoration: none;
+    display: inline;
+    padding-right: 12px;
+}
+
+.modalbtn{
+    height: 30px;
+    width: 40px;
+    position: relative;
+
+}
+.modalbtnicon{
+    position: absolute;
+    top: 12px;
+    left: 27px;
+
+}
+.modalResize{
+    position: relative;
+    display: flex;
+    text-align:justify;
+}

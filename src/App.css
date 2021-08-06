@@ -1,0 +1,96 @@
+.bg {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+  
+    /* Half height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .activeClass:active{
+    background-color: rgb(156, 154, 154);
+    color: black;
+}
+
+.activeClass:hover{
+    color: #fa0d0d;
+}
+
+.myNavItems{
+    background-color:rgb(28,35,49);
+    color: black !important;
+}
+.myNavItems:hover{
+    background-color: rgb(56, 90, 144);
+    color: black !important;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+  
+    /* Half height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Muli", sans-serif;
+}
+
+.act .Navlinkactives{
+    border-bottom: 3px solid #e66d0a;
+}
+
+.Navlinkactive:hover{
+    border-bottom: 3px solid #e66d0a;
+    transition: 2s;
+}
+.logoColor{
+    color: #e66d0a;
+}
+
+
+.ms-auto{
+    font-weight: bold;
+}
+
+.main:hover{
+    color: black;
+}
+
+.img-fluid1{
+    width: 100%;
+    justify-content: space-around;
+    height: 375px;
+    
+}
+
+.contact-section {
+    justify-content: center;
+
+}
+
+/* Slider Css */
+
+.carousel-inner{
+    max-height: 500px;
+}
+.img{
+    max-height: 500px;
+}
